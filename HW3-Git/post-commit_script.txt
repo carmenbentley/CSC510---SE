@@ -1,0 +1,52 @@
+Screen Case Script:
+
+"Hello my name is Carmen Aiken Bentley. My unity id is cnaiken."
+
+"Today I will be demonstrating a post-commit hook to
+immediately open a web page after a successful commit is made to my local repository."
+
+"This post-commit file can be viewed in my HW3 Github repo. In summary:"
+
+"The first statement identifies what kind of interpreter to run."
+
+"Line 5, is our first variation which uses the command "start" for windows
+to start the default web browser and open it to www.stackoverflow.com."
+
+"Line 8, is our second variation which uses the "start" command,
+execuatble path and desired webpage argument to open the chrome browser to www.weather.com."
+
+"I will quickly execute each variation in this portion of the screencast using two text files
+that are ready for staging and commit. Each file will be committed separately to demonstrate the different variations of the
+post-commit file."
+
+    *run variation one
+        COMMANDS:
+            git status
+            git add variation_1.txt
+            git status
+            git commit -m "Demo of v1"
+            
+        "Variation 1, check the git status and add the variation_1 text file"
+        "Check that this file has been staged and commit the changes with the message "Demo v1"
+        "stackoverflow is opened"
+        
+    - change post-commit file to run second variation (not recorded in the video)
+        cd .git/hooks
+        vim post-commit
+        I
+        adjust comment #
+        esc :x
+        cd ../..
+        
+    *run variation two
+        COMMANDS:
+            git status
+            git add variation_2.txt
+            git status
+            git commit -m "Demo of v2"
+        
+        "Variation 2, check the git status and add the variation_2 text file"
+        "Check that this file has been staged and commit the changes with the message "Demo v2"
+        "weather.com is opened"
+
+"This concludeds our screencast <--> Thank you for watching"

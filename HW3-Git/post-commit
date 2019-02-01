@@ -1,0 +1,8 @@
+#!/bin/bash
+# HW3 Task 2 : post-commit hook to open web page immediately upon a successful commit
+
+# Open www.stackoverflow.com in the default browser upon successful commit
+# start http://www.stackoverflow.com
+
+# Use start with the chrome.exe path and site argument to open www.weather.com in the chrome browser upon successful commit
+start "" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" "http://www.weather.com"
