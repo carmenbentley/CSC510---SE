@@ -3,7 +3,7 @@
 ### Task 0 :
 * Sign into NCSU's GitHub, create a private repo called HW4 initialize with a README. Further, add instructor and TA as collaborators.
   * Creation of the private repositiory and addition of collaborators can be verified with the following image reflecting that a _Private_ repo named _HW4_ has been established for student with the unity id _cnaiken_ and that the instructor _nkraft2_ and TA _mrahman_ are in fact collaborators.
-  ![alt text](https://github.ncsu.edu/cnaiken/HW4/blob/master/HW4_T0.PNG?raw=true)
+  ![alt text](https://github.com/carmenbentley/CSC510---SE/blob/master/HW4_REST/HW4_T0.PNG?raw=true)
 ### Task 1 :
 * Write code to complete the following tasks using the GitHub Rest API
   * T1.1 | List all branches of an existing repo
@@ -45,4 +45,4 @@ To run the program HW4.py
  4) From the commandline, navigate to the directory where the files are located
  5) Enter the command [$ python3 HW4.py] - This will begin the program
  6) The program will then give you instructions for next actions as seen in the example below:
-  ![alt text](https://github.ncsu.edu/cnaiken/HW4/blob/master/ProgramStartUp.PNG?raw=true)
+  ![alt text](https://github.com/carmenbentley/CSC510---SE/blob/master/HW4_REST/ProgramStartUp.PNG?raw=true)
